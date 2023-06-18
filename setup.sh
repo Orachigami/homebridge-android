@@ -9,3 +9,4 @@ export DEBIAN_FRONTEND=noninteractive &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   npm install homebridge &&
   npm install homebridge-config-ui-x
+  

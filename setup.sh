@@ -5,7 +5,7 @@ export DEBIAN_FRONTEND=noninteractive &&
   pkg update -y &&
   pkg upgr -y &&
   pkg i -y openssl-1.1 &&
-  pgk i -y nodejs-lts &&
+  pkg i -y nodejs-lts &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   npm install homebridge &&
   npm install homebridge-config-ui-x

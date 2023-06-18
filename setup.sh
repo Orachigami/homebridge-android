@@ -7,4 +7,6 @@ export DEBIAN_FRONTEND=noninteractive &&
   pkg i -y python openssl-1.1 nodejs-lts &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   npm install homebridge &&
-  npm install homebridge-config-ui-x
+  npm install -g --unsafe-perm homebridge-config-ui-x &&
+  echo -e '{\n  "platforms": [\n    {\n      "platform": "config",\n      "name": "Config",\n      "port": 8581,\n      "sudo": false\n    }\n  ]\n}' > ~/.homebridge/config.json &&
+  echo -e '== SUCCESS ==\nTo run execute npx homebridge'

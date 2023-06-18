@@ -3,7 +3,7 @@ export DEBIAN_FRONTEND=noninteractive &&
   pkg remove -y game-repo &&
   pkg remove -y science-repo &&
   pkg update -y &&
-  pkg -y upgr &&
+  pkg upgr -y &&
   pkg i -y openssl-1.1 &&
   pgk i -y nodejs-lts &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&

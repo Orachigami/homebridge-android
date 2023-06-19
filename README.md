@@ -1,4 +1,4 @@
-# Homebridge on Android
+# Install Homebridge on Android
 
 Tested components versions:
 

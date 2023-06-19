@@ -1,12 +1,15 @@
 # Homebridge on Android
-Tested on Android 7.0
 
-## TODO
-- [x] Create script
-- [x] Write docs
-- [x] Setup logs
-- [x] Create command shortcut
-- [ ] Research ways to restart and other commands execution. termux.boot?
+Tested components versions:
+
+* Android 7.0
+* termux 0.118.0
+* openssl 1.1.1u
+* Python 3.11.4
+* node v18.16.0
+* npm 9.5.1
+* homebridge@1.6.1
+* homebridge-config-ui-x@4.50.4
 
 ## Installation
 
@@ -23,7 +26,7 @@ Open Settings <picture><img src="https://github.com/Orachigami/homebridge-androi
 
 </details>
 
-Download and install Termux <picture><img src="https://github.com/Orachigami/homebridge-android/assets/22968321/72aff4f8-8f18-47da-a25f-148e51e096f7" alt="Termux icon" width="30px"></picture> apk https://f-droid.org/repo/com.termux_118.apk
+Download and install Termux <picture><img src="https://github.com/Orachigami/homebridge-android/assets/22968321/72aff4f8-8f18-47da-a25f-148e51e096f7" alt="Termux icon" width="30px"></picture> apk from: https://f-droid.org/repo/com.termux_118.apk
 
 <details>
   <summary>Alternative sources to get Termux <picture><img src="https://github.com/Orachigami/homebridge-android/assets/22968321/72aff4f8-8f18-47da-a25f-148e51e096f7" alt="Termux icon" width="30px"></picture> from</summary>
@@ -41,7 +44,15 @@ Open Termux <picture><img src="https://github.com/Orachigami/homebridge-android/
 curl https://raw.githubusercontent.com/Orachigami/homebridge-android/main/setup.sh | bash
 ```
 
+If everything installed successfully you will receive:
+
+> == Installation successful ==<br>
+Execute hb command to start
+
 | Regular start | Start with Accessory Control |
 | --- | --- |
-| <pre lang="bash">homebridge</pre> | <pre lang="bash">homebridge -I</pre> |
+| <picture><img src="data://" width="200px" height="1px"></picture><br><pre lang="bash">hb</pre> | <picture><img src="data://" width="200px" height="1px"></picture><br><pre lang="bash">hb -I</pre> |
 
+Wait for the message:
+
+> [Homebridge UI] Homebridge Config UI X ... is listening on :: port 8581

@@ -12,7 +12,7 @@ echo '== Setting up Dpkg options ==' &&
   echo '== Removing added Dpkg options ==' &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   echo '== Installing homebridge and homebridge-config-ui ==' &&
-  npm install -g --unsafe-perm homebridge &&
+  npm install homebridge &&
   npm install -g --unsafe-perm homebridge-config-ui-x &&
   echo '== Creating default config ==' &&
   echo -e '{\n	"bridge": {\n		"name": "Homebridge BA3D",\n		"username": "0E:F1:D3:85:BA:3D",\n		"port": 51248,\n		"pin": "171-94-744",\n		"advertiser": "bonjour-hap"\n	},\n	"accessories": [],\n	"platforms": [\n		{\n			"name": "Config",\n			"port": 8581,\n			"platform": "config",\n			"log": {\n				"method": "file",\n				"path": "/data/data/com.termux/files/home/.homebridge/homebridge.log"\n			}\n		}\n	]\n}\n' > ~/.homebridge/config.json &&

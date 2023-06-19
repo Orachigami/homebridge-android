@@ -4,10 +4,9 @@ Tested on Android 7.0
 ## TODO
 - [x] Create script
 - [x] Write docs
-- [ ] Setup logs
-- [ ] Create command shortcut
-- [ ] Research systemctl possibility or autolaunch
-- [ ] Research ways to restart and other commands execution
+- [x] Setup logs
+- [x] Create command shortcut
+- [ ] Research ways to restart and other commands execution. termux.boot?
 
 ## Installation
 
@@ -24,7 +23,7 @@ Open Settings <picture><img src="https://github.com/Orachigami/homebridge-androi
 
 </details>
 
-Download and install Termux <picture><img src="https://github.com/Orachigami/homebridge-android/assets/22968321/72aff4f8-8f18-47da-a25f-148e51e096f7" alt="Termux icon" width="30px"></picture> apk https://github.com/AndronixApp/termux-releases/blob/main/Releases/Termux_118/com.termux_118.apk?raw=true
+Download and install Termux <picture><img src="https://github.com/Orachigami/homebridge-android/assets/22968321/72aff4f8-8f18-47da-a25f-148e51e096f7" alt="Termux icon" width="30px"></picture> apk https://f-droid.org/repo/com.termux_118.apk
 
 <details>
   <summary>Alternative sources to get Termux <picture><img src="https://github.com/Orachigami/homebridge-android/assets/22968321/72aff4f8-8f18-47da-a25f-148e51e096f7" alt="Termux icon" width="30px"></picture> from</summary>
@@ -44,5 +43,5 @@ curl https://raw.githubusercontent.com/Orachigami/homebridge-android/main/setup.
 
 | Regular start | Start with Accessory Control |
 | --- | --- |
-| <pre lang="bash">npx homebridge</pre> | <pre lang="bash">npx homebridge -I</pre> |
+| <pre lang="bash">homebridge</pre> | <pre lang="bash">homebridge -I</pre> |
 

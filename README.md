@@ -40,7 +40,7 @@ The Termux app, which is going to be installed in the next step, is deprecated o
 
 | Settings | Lock screen and security |
 | --- | --- |
-| <picture>![Settings](/assets/settings-screnshot.png)</picture> | <picture>![Security](/assets/security-screnshot.png)</picture> |
+| <picture>![Settings](/assets/settings-screenshot.png)</picture> | <picture>![Security](/assets/security-screenshot.png)</picture> |
 
 </details>
 

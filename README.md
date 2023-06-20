@@ -115,5 +115,3 @@ Ignore 127.0.0.1 if you don't know what it is.
 | Are these apk files official? |
 | --- |
 | No but approved by official Termux repo: [It is recommended that you shift to F-Droid or GitHub releases.](https://github.com/termux/termux-app/blob/master/README.md#Installation:~:text=It%20is%20recommended%20that%20you%20shift%20to%20F%2DDroid%20or%20GitHub%20releases.) |
-
-| Where do I get

@@ -96,15 +96,8 @@ Wait for the message:
 
 Which means that you can open your browser, type in the address bar http\://\<your device ip>:8581 and complete setup.
 
-In case you don't know your device ip complete these steps:
-
-1. Open browser on your device where the Homebridge was installed
-2. Open the address http://127.0.0.1:8581
-3. Complete setup by pressing `Getting started` button and creating your admin profile
-4. You can check your ip on the left sidebar
-
 ## FAQ
 
 | Are these apk files official? |
 | --- |
-| [It is recommended that you shift to F-Droid or GitHub releases.](https://github.com/termux/termux-app/blob/master/README.md#Installation:~:text=It%20is%20recommended%20that%20you%20shift%20to%20F%2DDroid%20or%20GitHub%20releases.) |
+| No but approved by official Termux repo: [It is recommended that you shift to F-Droid or GitHub releases.](https://github.com/termux/termux-app/blob/master/README.md#Installation:~:text=It%20is%20recommended%20that%20you%20shift%20to%20F%2DDroid%20or%20GitHub%20releases.) |

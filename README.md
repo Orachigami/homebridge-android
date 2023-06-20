@@ -82,7 +82,7 @@ If everything was installed successfully you will receive:
 
 > == Installation successful ==<br>Execute hb command to start
 
-### Result
+### After installation
 
 To test that Homebridge just works execute any of these commands:
 
@@ -96,8 +96,24 @@ Wait for the message:
 
 Which means that you can open your browser, type in the address bar http\://\<your device ip>:8581 and complete setup.
 
+### Complete: Login to the Homebridge UI
+
+The [Homebridge UI](https://github.com/oznu/homebridge-config-ui-x) web interface will allow you to install, remove and update plugins, and modify the Homebridge config.json and manage other aspects of your Homebridge service.
+
+Login to the web interface by going to http\://\<ip address of your device>:8581.
+
+To find the IP address of your server you can run:
+
+```bash
+ifconfig | awk '/netmask/{print $2}'
+```
+
+Ignore 127.0.0.1 if you don't know what it is.
+
 ## FAQ
 
 | Are these apk files official? |
 | --- |
 | No but approved by official Termux repo: [It is recommended that you shift to F-Droid or GitHub releases.](https://github.com/termux/termux-app/blob/master/README.md#Installation:~:text=It%20is%20recommended%20that%20you%20shift%20to%20F%2DDroid%20or%20GitHub%20releases.) |
+
+| Where do I get

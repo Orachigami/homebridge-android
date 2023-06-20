@@ -7,21 +7,26 @@ your Android device. Imagine using your old phone as a home server.
 
 Before you get started, make sure you have the following ready:
 
-* A device with Android 7 or higher.
-* :warning: For Android 12, 12L and 13+ complete [these steps](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220).
+* A device with Android 7 or higher.<br>:warning: For Android 12, 12L and 13+ complete [these steps](https://github.com/termux/termux-app/issues/2366#issuecomment-1237468220).
 * A DHCP-enabled network.
 
 <details>
-<summary>Tested components versions</summary>
+<summary>Tested devices & components</summary>
 
-* Samsung Galaxy J7 (j7y17lte) with Android 7.0
-* termux 0.118.0
-* openssl 1.1.1u
-* Python 3.11.4
-* node v18.16.0
-* npm 9.5.1
-* homebridge@1.6.1
-* homebridge-config-ui-x@4.50.4
+| Device | Android |
+| --- | --- |
+| Samsung Galaxy J7 (j7y17lte) | 7 |
+| Samsung Galaxy A03 Core (a3core) | 11 |
+
+| Component | Version |
+| --- | --- |
+| termux | 0.118.0 |
+| openssl | 1.1.1u |
+| Python | 3.11.4 |
+| node | v18.16.0 |
+| npm | 9.5.1 |
+| homebridge | @1.6.1 |
+| homebridge-config-ui-x | @4.50.4 |
 
 </details>
 

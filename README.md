@@ -27,6 +27,8 @@ Before you get started, make sure you have the following ready:
 
 ## Installation
 
+You can watch the video of the process [here](https://www.youtube.com/watch?v=Sc3o7uwlLHg) or complete steps manually.
+
 ### Configure your device
 
 The Termux app, which is going to be installed in the next step, is deprecated on Play Market, Play Store, etc. That is why enabling app installation from `Unknown Sources` is required.

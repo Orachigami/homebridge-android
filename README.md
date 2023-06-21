@@ -65,7 +65,7 @@ The Termux app, which is going to be installed in the next step, is deprecated o
 
 * https://f-droid.org/en/packages/com.termux/
 * https://github.com/AndronixApp/termux-releases
-* Deprecated: ~~Play Market~~
+* [Deprecated](https://github.com/termux/termux-app/blob/master/README.md#google-play-store-deprecated): ~~Play Market~~
 
 </details>
 

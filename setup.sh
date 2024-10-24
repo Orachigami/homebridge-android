@@ -12,6 +12,7 @@ echo '== Setting up Dpkg options ==' &&
   echo '== Removing added Dpkg options ==' &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   echo '== Installing homebridge and homebridge-config-ui ==' &&
+  mkdir ~/.gyp && echo "{'variables':{'android_ndk_path':''}}" > ~/.gyp/include.gypi
   npm install -g --unsafe-perm homebridge &&
   npm install -g --unsafe-perm homebridge-config-ui-x &&
   echo '== Creating default config ==' &&

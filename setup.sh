@@ -7,8 +7,11 @@ echo '== Setting up Dpkg options ==' &&
   echo '== Updating repositories and upgrading packages ==' &&
   pkg update -y &&
   pkg upgr -y &&
-  echo '== Installing python, openssl and nodejs ==' &&
-  pkg i -y python openssl nodejs-lts &&
+  echo '== Installing python, openssl, nodejs and proot ==' &&
+  pkg i -y python openssl nodejs-lts proot &&
+  echo '== Creating a stub /proc/stat file ==' &&
+  echo 'cpu 1132 34 1441 11311718 3675 127 438' > ~/stat &&
+  echo 'cpu0 1132 34 1441 11311718 3675 127 438' >> ~/stat &&
   echo '== Removing added Dpkg options ==' &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   echo '== Installing homebridge and homebridge-config-ui ==' &&
@@ -21,4 +24,5 @@ echo '== Setting up Dpkg options ==' &&
   echo '== Adding homebridge commands ==' &&
   echo 'exec npx homebridge "$@" 2>&1 | tee ~/.homebridge/homebridge.log' > ~/../usr/bin/hb &&
   chmod +x ~/../usr/bin/hb &&
-  echo -e '== Installation successful ==\nExecute hb command to start'
+  echo 'alias hb-start="proot -b ~/stat:/proc/stat hb"' &&
+  echo -e '== Installation successful ==\nExecute hb-start command to start'

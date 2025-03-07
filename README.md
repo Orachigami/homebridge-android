@@ -16,9 +16,7 @@ Before you get started, make sure you have the following ready:
 | Device | Android |
 | --- | --- |
 | Samsung Galaxy J7 (j7y17lte) | 7 |
-<!--
 | Samsung Galaxy A03 Core (a3core) | 11 |
--->
 
 | Component | Version |
 | --- | --- |

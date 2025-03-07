@@ -32,7 +32,7 @@ Before you get started, make sure you have the following ready:
 
 ## Installation
 
-You can watch the video of the process [here](https://www.youtube.com/watch?v=Sc3o7uwlLHg) or complete steps manually.
+You can watch the video of the process [here](https://www.youtube.com/watch?v=Sc3o7uwlLHg) or [Read this article by Vijay here](https://androidstrike.com/install-homebridge-on-android-using-termux/) complete steps manually.
 
 ### Configure your device
 

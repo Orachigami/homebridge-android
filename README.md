@@ -85,7 +85,7 @@ Installation process takes approximately 5 minutes.
 
 If everything was installed successfully you will receive:
 
-> == Installation successful ==<br>Execute hb command to start
+> == Installation successful ==<br>Restart Termux via exit command. Then execute hb-start command to launch Homebridge
 
 ### After installation
 
@@ -94,6 +94,7 @@ To test that Homebridge just works execute any of these commands:
 | Regular start | Start with Accessory Control |
 | --- | --- |
 | <picture><img src="data://" width="200px" height="1px"></picture><br><pre lang="bash">hb</pre> | <picture><img src="data://" width="200px" height="1px"></picture><br><pre lang="bash">hb -I</pre> |
+| If plugin page doesn't load<br><picture><img src="data://" width="200px" height="1px"></picture><br><pre lang="bash">hb-start</pre> | If plugin page doesn't load<br><picture><img src="data://" width="200px" height="1px"></picture><br><pre lang="bash">hb-start -I</pre> |
 
 Wait for the message:
 
@@ -120,3 +121,7 @@ Ignore 127.0.0.1 if you don't know what it is.
 | Are these apk files official? |
 | --- |
 | No but approved by official Termux repo: [It is recommended that you shift to F-Droid or GitHub releases.](https://github.com/termux/termux-app/blob/master/README.md#Installation:~:text=It%20is%20recommended%20that%20you%20shift%20to%20F%2DDroid%20or%20GitHub%20releases.) |
+
+| Plugin page doesn't load 500 error |
+| --- |
+| Run `hb-start` command to launch Homebridge or `proot -b ~/stat:/proc/stat hb` |

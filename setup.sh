@@ -27,4 +27,4 @@ echo '== Setting up Dpkg options ==' &&
   echo 'alias hb-start="proot -b ~/stat:/proc/stat hb"' >> ~/.profile &&
   chmod +x ~/.profile &&
   . ~/.profile &&
-  echo -e '== Installation successful ==\nExecute hb-start command to launch Homebridge'
+  echo -e '== Installation successful ==\nRestart Termux via exit command. Then execute hb-start command to launch Homebridge'

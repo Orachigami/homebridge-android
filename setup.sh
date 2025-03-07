@@ -8,7 +8,7 @@ echo '== Setting up Dpkg options ==' &&
   pkg update -y &&
   pkg upgr -y &&
   echo '== Installing python, openssl and nodejs ==' &&
-  pkg i -y python openssl-1.1 nodejs-lts &&
+  pkg i -y python openssl nodejs-lts &&
   echo '== Removing added Dpkg options ==' &&
   rm ~/../usr/etc/apt/apt.conf.d/local &&
   echo '== Installing homebridge and homebridge-config-ui ==' &&

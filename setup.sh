@@ -24,5 +24,6 @@ echo '== Setting up Dpkg options ==' &&
   echo '== Adding homebridge commands ==' &&
   echo 'exec npx homebridge "$@" 2>&1 | tee ~/.homebridge/homebridge.log' > ~/../usr/bin/hb &&
   chmod +x ~/../usr/bin/hb &&
-  echo 'alias hb-start="proot -b ~/stat:/proc/stat hb"' &&
+  alias hb-start="proot -b ~/stat:/proc/stat hb" &&
+  echo 'alias hb-start="proot -b ~/stat:/proc/stat hb"' >> ~/.profile &&
   echo -e '== Installation successful ==\nExecute hb-start command to start'

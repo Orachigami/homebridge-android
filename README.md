@@ -19,6 +19,8 @@ Before you get started, make sure you have the following ready:
 | Samsung Galaxy S9 | 10 |
 | Samsung Galaxy A03 Core (a3core) | 11 |
 | Samsung Galaxy A22 | 11 |
+| Samsung Galaxy A14 | 13 |
+| Realme 7 5G | 12 |
 
 | Component | Version |
 | --- | --- |
